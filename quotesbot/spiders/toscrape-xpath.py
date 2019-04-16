@@ -5,7 +5,7 @@ import scrapy
 class ToScrapeSpiderXPath(scrapy.Spider):
     name = 'toscrape-xpath'
     start_urls = [
-        'http://quotes.toscrape.com/',
+        'https://www.bikeoutlet.cz/bikeoutlet.php?kat=11',
     ]
 
     def parse(self, response):
