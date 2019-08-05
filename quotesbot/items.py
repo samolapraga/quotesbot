@@ -8,7 +8,11 @@
 import scrapy
 
 
-class QuotesbotItem(scrapy.Item):
+class Product(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+	id = scrapy.Field()
+	name = scrapy.Field()
+	desc = scrapy.Field()
+	price = scrapy.Field()
+	regprice = scrapy.Field()
+	img = scrapy.Field()
