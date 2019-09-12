@@ -13,6 +13,8 @@ class Product(scrapy.Item):
 	id = scrapy.Field()
 	name = scrapy.Field()
 	desc = scrapy.Field()
+	longdesc = scrapy.Field()
 	price = scrapy.Field()
 	regprice = scrapy.Field()
 	img = scrapy.Field()
+	stock = scrapy.Field()

@@ -8,5 +8,6 @@ class bikeoutlet(scrapy.Spider):
     name = 'bikeoutlet'
 
     def start_requests(self):
+        self.logger.info("This is init YYYYYYYYY")
         yield scrapy.Request('https://www.bikeoutlet.cz/bikeoutlet.php?disp=akce') 
 #		% self.category)
